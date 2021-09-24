@@ -1,0 +1,16 @@
+{
+  "name": "frontend",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "sst-env -- vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@serverless-stack/static-site-env": "^0.43.3",
+    "vite": "^2.5.4"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "^5.1.1"
+  }
+}
